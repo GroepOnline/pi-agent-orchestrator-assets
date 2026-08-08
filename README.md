@@ -1,6 +1,6 @@
 # pi-agent-orchestrator-assets
 
-Binary showcase media for [`pi-agent-orchestrator`](https://github.com/OnlineChefGroep/pi-agent-orchestrator).
+Binary showcase media for [`pi-agent-orchestrator`](https://github.com/GroepOnline/pi-agent-orchestrator).
 
 Keep large `*.mp4` / `*.gif` files here so the extension repository stays clone-light.
 
@@ -17,7 +17,7 @@ images/
 
 ```bash
 # sibling clone
-git clone git@github.com:OnlineChefGroep/pi-agent-orchestrator-assets.git ../pi-agent-orchestrator-assets
+git clone git@github.com:GroepOnline/pi-agent-orchestrator-assets.git ../pi-agent-orchestrator-assets
 cd ../pi-agent-orchestrator
 npm run assets:link
 ```
