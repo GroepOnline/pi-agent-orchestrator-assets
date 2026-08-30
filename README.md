@@ -28,7 +28,7 @@ images/
 ## Use from an orchestrator checkout
 
 ```bash
-git clone git@github.com:GroepOnline/pi-agent-orchestrator-assets.git ../pi-agent-orchestrator-assets
+git clone https://github.com/GroepOnline/pi-agent-orchestrator-assets.git ../pi-agent-orchestrator-assets
 cd ../pi-agent-orchestrator
 npm run assets:link
 ```
@@ -44,3 +44,7 @@ Or set `ORCHESTRATOR_MEDIA_DIR` to this repository root (or its `images/` direct
 5. Keep stable public URLs in the main package manifest and README; this repo remains the binary source of truth.
 
 When a showcase asset is replaced, preserve its purpose and filename when the public URL is intended to remain stable.
+
+## License
+
+Showcase assets and repository documentation are available under the [MIT License](LICENSE).
